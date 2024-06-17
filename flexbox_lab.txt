@@ -1,0 +1,43 @@
+
+    Step 1:
+Convert the <nav>, <div id="destinations"> into flex container 
+Convert the <div id="actions"> elements into flex container. 
+    Keep in mind that this makes <div id="destinations"> and <div id="actions"> both flex children (inside <nav>) 
+    and flex parents to their own child elements.
+
+Research a method to create spacing between the elements inside <div id="destinations"> 
+Research a method to create spacing between the elements inside <div id="actions">.
+    Vertically centering destinations and actions within the nav bar may pose a challenge. 
+    Break down the problem into smaller steps and tackle them one by one.
+
+
+
+    Step 2 : Center items in the hero
+
+Apply flexbox properties to recreate the hero layout shown in the example above.
+
+Similar to what you did for the nav bar, you’ll need to nest one flexbox inside another to achieve the desired result.
+
+    
+    Step 3 : Dividing the sub nav
+
+Use flexbox to position content on opposite sides of the sub nav.
+
+    
+    Step 4 : Create card layout
+
+Apply flexbox properties to recreate the card layout shown in the example above.
+
+Here are some hints to guide you:
+
+    Make the <main> element a flex container that arranges its children in a row. 
+
+    When the children don’t fit on one row, they should wrap to the next row.
+
+    Ensure that the cards are vertically centered within the <main> element.
+
+    Transform the <div class="card-footer"> element into a flex container that arranges its children in a row. 
+    
+    Position its two children at the edges of the container.
+    
+    Create spacing between the <article class="card"> elements, which are children of the <main> element.
